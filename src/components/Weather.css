@@ -1,0 +1,44 @@
+body{
+  background: linear-gradient(45deg,#064F5E 10%,  #30A0AC 150%);
+  
+}
+.weather-container {
+    max-width: 300px;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(211, 7, 7, 0.1);
+    align-items: center;
+    background: rgba(14, 173, 154, 0.599);
+    border-radius: 5px;
+    
+    
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .input-group input {
+    flex-grow: 1;
+    padding: 10px;
+    
+  }
+  
+  .input-group button {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+   
+    
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: rgb(249, 242, 242);
+  }

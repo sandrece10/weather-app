@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Votre fichier CSS */
+
+/* Style de base */
+
+@media (max-width: 768px) {
+  /* Styles spécifiques pour les écrans jusqu'à 768px de largeur */
+}
+
+@media (max-width: 480px) {
+  /* Styles spécifiques pour les écrans jusqu'à 480px de largeur */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+}
+
+
